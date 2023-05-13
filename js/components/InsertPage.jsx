@@ -1,5 +1,7 @@
 // js/components/MainPage.jsx
+import { useRouter } from 'next/router';
 export default function InsertPage() {
+    const router = useRouter();
 	const insertRecord = async (e) => {
 		e.preventDefault();
 
@@ -23,7 +25,11 @@ export default function InsertPage() {
 				console.log("A records has been uploaded")
 				document.getElementById('title').value = '';
 				document.getElementById('description').value = '';
+                router.push('/');
 			})
+        
+            
+
 	}
 
 	return (
