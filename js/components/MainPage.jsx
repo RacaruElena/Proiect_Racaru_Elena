@@ -49,7 +49,7 @@ export default function MainPage() {
             <div className={"container bg-green-100"}>
                 <Header title={"Aplicatia pentru realizarea unei programari intr-o clinica medicala"} />
                 <h1 className={"w-[700px] mx-auto text-center text-6xl font-bold text-lime-950"}>Clinica EliCover</h1>
-                <div class="flex justify-center" >
+                <div className={"flex justify-center"} >
                     <button type="button"
                         onClick={insert}
                         className="w-[500px] mt-4 text-gray-900 bg-gradient-to-r from-green-200 via-green-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
