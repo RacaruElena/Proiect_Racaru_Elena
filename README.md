@@ -1,38 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Racaru Elena-Andreea
 
-## Getting Started
+Aplicație pentru realizarea unei programări într-o clinică medicală
+Link către aplicația publicată prin intermediul Vercel: https://proiect-racaru-elena.vercel.app/
+Link către prezentarea video: https://youtu.be/cnu9WMrVWKI
+Descriere problemă
+Scopul aplicației este de a permite pacienților să realizeze programări la clinică medicală Elicover în mod eficient și convenabil. Aplicația ar putea fi utilizată de pacienți pentru a programa o consultație cu un medic, a verifică disponibilitatea programărilor și a putea anula o programare.
+De asemenea, o astfel de aplicație ar putea fi utilizată de personalul clinic pentru a gestiona programările și a verifică disponibilitatea medicilor și a altor resurse. Aplicația ar putea ajută la programarea pacienților în funcție de disponibilitatea medicilor și a altor resurse, astfel încât să se maximizeze eficiența clinică.
+Descriere API folosite
+Aplicația creată folosește două servicii în cloud: este disponibilă online prin publicarea acesteia pe platforma de hosting, Vercel și este conectată la baza de date MongoDB.
+Vercel este o platformă open-source, care încurajează colaborarea și dezvoltarea comunității. Dezvoltatorii pot utiliza platforma pentru a crea și găzdui aplicații open-source gratuit, ceea ce poate ajută la dezvoltarea comunității și la îmbunătățirea cunoștințelor și abilităților de programare.
+Prin utilizarea Vercel, dezvoltatorii pot să se concentreze pe dezvoltarea aplicației, fără a fi nevoie să se preocupe de problemele legate de infrastructură și performanța serverelor. Vercel oferă o infrastructură globală și scalabilă, astfel încât aplicațiile să poată fi rulate și accesate rapid de către utilizatori din orice colț al lumii. De asemenea, platforma oferă suport pentru o gamă largă de tehnologii și limbaje de programare, inclusiv JavaScript, TypeScript, Python și Ruby, printre altele.
+MongoDB este un serviciu de cloud pentru baze de date NoSQL, care oferă posibilitatea de a stoca, gestiona și accesa datele într-un mod scalabil și eficient.
+Fluxuri de date
+În baza de date în cloud s-au stocat informațiile referitoare la programările realizate de pacienții clinicii precum: numele și prenumele pacientului, cât și ale doctorului, specializarea medicului ales și dată la care se dorește programarea.
+În cadrul aplicației se realizează get-uri și post-uri pentru diferitele operații efectuate de un client.
+Au fost realizate operațiile crud de select, insert, update, delete pentru toată tabela cât și pentru id-uri explicite.
+ 
+image.png
 
-First, run the development server:
+Prezentarea aplicației
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+image.png
+ 
+Pagină principala a aplicației, care este expusă mai sus, conține lista complete a programărilor realizate de pacienți și oferă, de asemenea, posibilitatea adaugarii unei noi programări, prin apăsarea butonului “Programează-te acum!”.
+În momentul accesării butonului, se deschide formularul de introducere a detaliilor unei programări.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+image.png
+ 
+După ce câmpurile sunt completate, se apasă butonul “Submit”, programarea este inserată în baza de date, precum și în lista complete afișată în pagină principala la care utilizatorul este redirecționat.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
