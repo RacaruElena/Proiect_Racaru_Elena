@@ -1,8 +1,12 @@
 Racaru Elena-Andreea
 
 Aplicație pentru realizarea unei programări într-o clinică medicală
+
 Link către aplicația publicată prin intermediul Vercel: https://proiect-racaru-elena.vercel.app/
+
 Link către prezentarea video: https://youtu.be/cnu9WMrVWKI
+
+Link git repo: https://github.com/RacaruElena/Proiect_Racaru_Elena.git
 
 Descriere problemă
 Scopul aplicației este de a permite pacienților să realizeze programări la clinică medicală Elicover în mod eficient și convenabil. Aplicația ar putea fi utilizată de pacienți pentru a programa o consultație cu un medic, a verifică disponibilitatea programărilor și a putea anula o programare.
