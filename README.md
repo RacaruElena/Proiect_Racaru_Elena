@@ -16,16 +16,19 @@ Fluxuri de date
 În cadrul aplicației se realizează get-uri și post-uri pentru diferitele operații efectuate de un client.
 Au fost realizate operațiile crud de select, insert, update, delete pentru toată tabela cât și pentru id-uri explicite.
  
-image.png
+![image](https://github.com/RacaruElena/Proiect_Racaru_Elena/assets/85835406/c5e07530-98fb-4bc6-b94a-03fe6d5734a6)
+
 
 Prezentarea aplicației
 
-image.png
+![image](https://github.com/RacaruElena/Proiect_Racaru_Elena/assets/85835406/4cde8eb6-8bb9-43e7-acea-8ea5271fe59c)
+
  
 Pagină principala a aplicației, care este expusă mai sus, conține lista complete a programărilor realizate de pacienți și oferă, de asemenea, posibilitatea adaugarii unei noi programări, prin apăsarea butonului “Programează-te acum!”.
 În momentul accesării butonului, se deschide formularul de introducere a detaliilor unei programări.
 
-image.png
+![image](https://github.com/RacaruElena/Proiect_Racaru_Elena/assets/85835406/6e5bcf54-8bf5-4db5-8af2-7614f64415b4)
+
  
 După ce câmpurile sunt completate, se apasă butonul “Submit”, programarea este inserată în baza de date, precum și în lista complete afișată în pagină principala la care utilizatorul este redirecționat.
 
